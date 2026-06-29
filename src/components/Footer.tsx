@@ -1,4 +1,5 @@
 import { Gift, Instagram, Facebook, Youtube, Twitter, Heart, Compass, ShieldCheck } from 'lucide-react';
+import giftLogo from '../assets/images/gift_logo_1782687479039.jpg';
 
 export default function Footer() {
   
@@ -28,7 +29,7 @@ export default function Footer() {
         <div className="space-y-4 text-left">
           <div onClick={handleLogoClick} className="flex items-center cursor-pointer group">
             <img 
-              src="/src/assets/images/gift_logo_1782687479039.jpg" 
+              src={giftLogo} 
               alt="GIFT Logo" 
               className="h-12 w-12 object-contain bg-white rounded-lg p-1 transition-transform group-hover:scale-105 duration-300"
               referrerPolicy="no-referrer"

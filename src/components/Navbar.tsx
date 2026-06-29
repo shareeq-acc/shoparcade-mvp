@@ -1,6 +1,7 @@
 import { useState, FormEvent } from 'react';
 import { Gift, Search, Heart, ShoppingBag, User, Sparkles, Menu, X } from 'lucide-react';
 import { CartItem } from '../types';
+import giftLogo from '../assets/images/gift_logo_1782687479039.jpg';
 
 interface NavbarProps {
   cart: CartItem[];
@@ -90,7 +91,7 @@ export default function Navbar({
           id="logo-container"
         >
           <img 
-            src="/src/assets/images/gift_logo_1782687479039.jpg" 
+            src={giftLogo} 
             alt="GIFT Logo" 
             className="h-12 w-12 sm:h-14 sm:w-14 object-contain transition-transform group-hover:scale-105 duration-300"
             referrerPolicy="no-referrer"
