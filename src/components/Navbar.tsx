@@ -53,7 +53,7 @@ export default function Navbar({
   };
 
   return (
-    <header className="sticky top-0 z-40 w-full bg-white/60 backdrop-blur-md border-b border-rose-50/50 shadow-xs transition-all duration-300">
+    <header className="sticky top-0 z-50 w-full bg-white/60 backdrop-blur-md border-b border-rose-50/50 shadow-xs transition-all duration-300">
       {/* Top bar with promo & contact */}
       <div className="w-full bg-slate-900 text-white text-xs py-2 px-4 flex flex-col sm:flex-row justify-between items-center gap-1.5 font-sans tracking-wide">
         <div className="flex items-center gap-1">
