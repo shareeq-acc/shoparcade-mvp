@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Shoparcade",
+  "description": "A premium, modern single-page gift store featuring curated categories, dynamic product catalog, interactive cart, customer reviews, FAQs, and elegant floral-inspired gift hero presentation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
